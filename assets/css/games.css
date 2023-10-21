@@ -122,3 +122,36 @@ button {
 #games img:hover {
     transform: scale(1.01);
 }
+
+/* Style for the image gallery container */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for the image container */
+.image-container {
+    text-align: center;
+    margin: 10px; /* Add some spacing between images */
+}
+
+/* Style for the image with a white border and rounded corners */
+.rounded-image {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 150px; /* Adjust the image size as needed */
+}
+
+/* Style for the caption */
+.caption {
+    text-align: center;
+}
+
+/* Style for the hyperlink (normal text) */
+.normal-link {
+    text-decoration: none;
+    color: #000; /* Black color for the text */
+}
