@@ -1,0 +1,124 @@
+#frame {
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#gameInfo {
+    position: relative;
+}
+
+#gameInfo {
+    width: 25%;
+    height: 100%;
+}
+
+#gameInfo .yes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25% 25px;
+}
+
+#gameInfo div img {
+    aspect-ratio: 1 / 1;
+    height: 75px;
+    border-radius: 5px;
+}
+
+#gameInfo div h3 {
+    margin-left: 15px;
+}
+
+#gameInfo #gameDescription {
+    margin: 15px;
+}
+
+#gameInfo #menubtns {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+#gameInfo #menubtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 10px;
+}
+#menubtns button {
+    border: 3px solid white;
+    font-family: "DM Sans";
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: 0.4s all;
+    margin: 5px 5px;
+}
+a, a:visited {
+    color: var(--accent);
+    text-decoration: none;
+    transition: 0.4s all;
+}
+
+button {
+    color: var(--background);
+    background-color: var(--accent);
+    padding: 8px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.4s all;
+}
+
+.gamecontainer {
+    height: calc(100vh - (75px + 25px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#menubtns {
+    aspect-ratio: 1 / 1;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.gameDescription {
+    visibility: hidden;
+}
+.seo {
+    visibility: hidden;
+}
+
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .6vw;
+    padding-bottom: 5vw;
+
+}
+ 
+#games img {    
+    height: 15.6vw;
+    width: 15.6vw;
+    border-radius: 1vw;
+    margin: .5vw;
+    cursor: pointer;
+    user-select: none;
+    transition: transform .2s;
+}
+ 
+#games img:hover {
+    transform: scale(1.01);
+}
