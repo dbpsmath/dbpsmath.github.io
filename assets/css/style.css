@@ -190,3 +190,24 @@ color: #2c7ffc;
   font-size: 10px;
 }
 
+.play {
+	font-family: "Montserrat";
+	font-weight: 700;
+	color: var(--background);
+}
+
+button {
+	background-color: #0284d4;
+	padding: 8px 15px;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: 0.4s all;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the particles behind other content */
+}
