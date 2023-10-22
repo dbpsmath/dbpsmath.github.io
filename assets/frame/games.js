@@ -144,6 +144,13 @@ var games = [
       description: 'OvO 2 is an exciting and immersive video game that takes players on a thrilling journey through a captivating virtual world. This sequel to the original OvO',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/ovo2/',
       image: 'assets/gxmes/ovo2/gameicon.png'
+    },
+    {
+      id: 'cookie',
+      title: 'Cookie Clicker',
+      description: 'Cookie Clicker is a 2013 incremental game created by French programmer Julien "Orteil" Thiennot. The user initially clicks on a big cookie on the screen, earning a single cookie per click. ',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/cookie-clicker/',
+      image: 'assets/gxmes/cookie-clicker/gameicon.png'
     }
   ]
   var customgames = getObj("customgames")
