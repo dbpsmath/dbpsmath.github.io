@@ -214,6 +214,13 @@ var games = [
       description: 'HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/hexgl/',
       image: 'assets/gxmes/hexgl/gameicon.png'
+    },
+    {
+      id: 'goi',
+      title: 'Getting Over It',
+      description: 'Play Getting Over It with the Scratch Cat!',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/gettingoverit/',
+      image: 'assets/gxmes/gettingoverit/splash.bmp'
     }
   ]
   var customgames = getObj("customgames")
