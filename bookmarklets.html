@@ -9,6 +9,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <style>
+.code {
+	text-align: left;
+	font-size: 0.8em;
+	color: blue;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+pre {
+	background: #26252a;
+	border: 1px solid #000000;
+	border-radius: 1em;
+	color: #ffffff;
+	page-break-inside: avoid;
+	font-family: monospace;
+	font-size: 15px;
+	line-height: 1.6;
+	margin: 0px;
+	margin-bottom: 15px;
+	max-width: 95vw;
+	overflow: auto;
+	padding: 1em;
+	padding-bottom: 13px;
+	display: block;
+	word-wrap: break-word;
+}
+    </style>
     <title>DBP's Games</title>
     <noscript>
       <h1 class="center-container">Uh oh! Your browser doesn't support Javascript. Please whitelist our website so that we can provide you with great content</h1>
@@ -19,7 +47,7 @@
     <nav>
         <h1>DBP's Games</h1>
         <div class="menu">
-          <ul>
+        <ul>
             <li><a href="index.html" id="active">Home</a></li>
             <li><a href="gxmes.html">Games</a></li>
             <li class="dropdown">
@@ -30,17 +58,49 @@
                 </ul>
             </li>
             <li><a href="bookmarklets.html">Bookmarklets</a></li>
-          </ul>
+        </ul>
         </div>
     </nav>
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-    <div class="center-container">
-        <h1>DBP's <span>Games</span></h1>
-        <p class="motd">Please wait while your MOTD is loading...</p>
-        <br>
-        <a onclick="abcloak()" href><i class="fa-solid fa-link fa-beat fa-xl" style="color: #5865f2;"></i></a>
-        <a href="https://discord.gg/3wd2CYDvBm"><i class="fa-brands fa-discord fa-xl" style="color: #5865f2;"></i></a>
+    <br> <br> <br> <br> <br> <br> <br>
+    <h1>1 | Bookmarklet | Tab Cloaker</h1>
+    <div class="code">
+    <pre>
+        javascript:(function () {document.title=prompt('Tab Cloak\n\nEnter new Tab Title:');var icon=document.querySelector
+        ('link[rel="icon"]');switch(prompt('Choose new tab icon:\n\n[1] Google Search\n[2] Google Drive\n[3] Custom URL'))
+        {case'1':icon.setAttribute('href','https://www.google.com/favicon.ico');break;case'2':icon.setAttribute
+        ('href','https://ssl.gstatic.com/images/branding/product/2x/hh_drive_96dp.png');break;case'3':icon.setAttribute
+        ('href',prompt('Enter Custom Tab Icon URL:'))}})()
+        </pre>
     </div>
+    <h1>2 | Bookmarklet | LTBEEF</h1>
+    <p>Note: This is patched in newer versions of browsers</p>
+    <div class="code">
+    <pre>
+        javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
+        </pre>
+    </div>
+    <h1>3 | HTML | EaglerCraft</h1>
+    <div class="code">
+    <pre>
+        Go to this URL, right click, press save page as, save it, and open it.
+        https://raw.githubusercontent.com/Eaglercraft-Archive/Eaglercraft-PBR-shaders/main/Stable-Offline-Downloads/EaglercraftX_Shaders_1.8_Offline_International.html 
+    </pre>
+    </div>
+    <h1>4 | Bookmarklet | YouTube Unblocked</h1>
+    <div class="code">
+    <pre>
+    javascript:(function () {if (window.location.toString().includes('www.youtube.com/watch?v%27))%20{%20
+    window.open(%27https://www.youtube-nocookie.com/embed/%27%20+%20window.location.toString().split(%27=%27)[1])%20}})()
+    </pre>
+    </div>
+    <h1>5 | Bookmarklet | Disable GG tab closing</h1>
+    <div class="code">
+    <pre>
+    javascript:(function () {window.onbeforeunload = function() { return 1; };})()
+    </pre>
+    </div>
+
+
     <script>
       particlesJS("particles-js", {
   "particles": {
