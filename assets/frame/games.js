@@ -151,6 +151,34 @@ var games = [
       description: 'Cookie Clicker is a 2013 incremental game created by French programmer Julien "Orteil" Thiennot. The user initially clicks on a big cookie on the screen, earning a single cookie per click. ',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/cookie-clicker/',
       image: 'assets/gxmes/cookie-clicker/gameicon.png'
+    },
+    {
+      id: '10min',
+      title: '10 Minutes Till Dawn',
+      description: 'In this roguelite survival game, select from a variety of upgrades to create a unique and overpowered builds every run.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/10-minutes-till-dawn/',
+      image: 'assets/gxmes/10-minutes-till-dawn/gameicon.png'
+    },
+    {
+      id: 'slope',
+      title: 'Slope',
+      description: 'Play Slope Game, an endless space run game. Drive a ball in the 3D running game in Slope Game. Easy to controls, high speed, and addictive gameplay.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/slope/',
+      image: 'assets/gxmes/slope/gameicon.png'
+    },
+    {
+      id: 'slope2',
+      title: 'Slope 2',
+      description: 'Slope 2 is one of the most exciting endless run games. Control your ball in a high-speed slope race and see how far you can go, be the top on the leader board',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/slope-2/',
+      image: 'assets/gxmes/slope-2/gameicon.png'
+    },
+    {
+      id: 'slopeball',
+      title: 'Slope Ball',
+      description: 'Slope Ball is a fun running game for singleplayer. Your task is to jump over the obstacles and reach the destination to move on to the next level.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/slope-2/',
+      image: 'assets/gxmes/slope-ball/gameicon.png'
     }
   ]
   var customgames = getObj("customgames")

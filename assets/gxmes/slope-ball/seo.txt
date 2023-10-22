@@ -1,0 +1,1 @@
+WebSlope Ball is a fun running game for singleplayer. Your task is to jump over the obstacles and reach the destination to move on to the next level.
