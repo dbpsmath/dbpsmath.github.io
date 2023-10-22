@@ -6,8 +6,6 @@ if (params.get("game")) {
     document.querySelector("#gameImage").src = game.image
     document.querySelector("#gameTitle").innerHTML = game.title
     if (game.description) document.querySelector("#gameDescription").innerHTML = game.description
-    document.querySelector("#frame").src = game.url
-
-    
+    document.querySelector("#frame").src = game.url    
     })
 }

@@ -15,6 +15,6 @@ function abcloak() {
     stl.height = '100vh';
     stl.position = 'fixed';
     stl.left = stl.right = stl.top = stl.bottom = '0';
-    iframe.src = document.location.href;
+    iframe.src = self.location;
     tab.document.body.appendChild(iframe);
 }

@@ -179,6 +179,41 @@ var games = [
       description: 'Slope Ball is a fun running game for singleplayer. Your task is to jump over the obstacles and reach the destination to move on to the next level.',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/slope-2/',
       image: 'assets/gxmes/slope-ball/gameicon.png'
+    },
+    {
+      id: 'drivemad',
+      title: 'Drive Mad',
+      description: 'Drive Mad is a car game where you drive on a track filled with obstacles. Your aim is to reach the finish line in one piece. You have to balance your speed so your car doesnt flip over. This is harder than it sounds, as there are many thrilling and creative stunts and obstacles for you to enjoy.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/drive-mad/',
+      image: 'assets/gxmes/drive-mad/gameicon.png'
+    },
+    {
+      id: '1v1lol',
+      title: '1v1 Lol',
+      description: 'Discover 1v1, the online building simulator & third person shooting game. Battle royale, build fight, box fight, zone wars and more game modes to enjoy!',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/1v1lol/',
+      image: 'assets/gxmes/1v1lol/gameicon.png'
+    },
+    {
+      id: 'jetpack',
+      title: 'Jetpack Joyride',
+      description: 'Jetpack Joyride is a 2011 side-scrolling endless runner action video game created by Halfbrick Studios. It was released for iOS devices on the App Store on September 1, 2011 and has been ported to other systems.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/jetpack-joyride/',
+      image: 'assets/gxmes/jetpack-joyride/gameicon.png'
+    },
+    {
+      id: '1',
+      title: '1',
+      description: 'Experience the opposite of 2048 in this fun parody game!',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/1/',
+      image: 'assets/gxmes/1/gameicon.png'
+    },
+    {
+      id: 'hexgl',
+      title: 'HexGL',
+      description: 'HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/hexgl/',
+      image: 'assets/gxmes/hexgl/gameicon.png'
     }
   ]
   var customgames = getObj("customgames")
