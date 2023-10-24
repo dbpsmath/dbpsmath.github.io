@@ -221,12 +221,19 @@ var games = [
       description: 'Play Getting Over It with the Scratch Cat!',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/gettingoverit/',
       image: 'assets/gxmes/gettingoverit/splash.bmp'
+    },
+    {
+      id: 'adr',
+      title: 'A Dark Room',
+      description: 'A Dark Room is an open-source text-based role-playing game. It was originally published for web browsers by Canadian indie studio Doublespeak Games on June 10, 2013. Later that year, it was released in the App Store for iOS devices.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/adarkroom/',
+      image: 'assets/gxmes/adarkroom/adr.png'
+    },
+    {
+      id: 'amongus',
+      title: 'Among Us',
+      description: 'Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. The game was inspired by the party game Mafia and the science fiction horror film The Thing.',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/among-us/',
+      image: 'assets/gxmes/among-us/amongus.png'
     }
   ]
-  var customgames = getObj("customgames")
-  if (customgames) customgames.forEach(game => {
-    games.push(game)
-  })
-  
-  console.log("Loaded " + games.length + " games")
-  if (customgames) console.log("Loaded " + customgames.length + " custom games")
