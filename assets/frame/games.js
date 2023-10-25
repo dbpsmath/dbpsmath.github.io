@@ -242,5 +242,12 @@ var games = [
       description: 'You wanna play a game? Lets play a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/game-inside/',
       image: 'assets/gxmes/game-inside/game-inside.png'
-    },    
+    },
+    {
+      id: 'bigred',
+      title: 'Big Red Button',
+      description: "Don't press it",
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/bigredbutton/',
+      image: 'assets/gxmes/bigredbutton/bigredbutton.png'
+    },  
 ]
