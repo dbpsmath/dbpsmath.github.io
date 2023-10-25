@@ -235,5 +235,12 @@ var games = [
       description: 'Among Us is a 2018 online multiplayer social deduction game developed and published by American game studio Innersloth. The game was inspired by the party game Mafia and the science fiction horror film The Thing.',
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/among-us/',
       image: 'assets/gxmes/among-us/amongus.png'
-    }
-  ]
+    },
+    {
+      id: 'gameinside',
+      title: 'Game Inside a Game Inside a Game inside a Game',
+      description: 'You wanna play a game? Lets play a game inside a game inside a game inside a game inside a game inside a game inside a game inside a game',
+      url: 'https://' + document.location.host + '/' + 'assets/gxmes/game-inside/',
+      image: 'assets/gxmes/game-inside/game-inside.png'
+    },    
+]
