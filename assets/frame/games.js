@@ -250,4 +250,4 @@ var games = [
       url: 'https://' + document.location.host + '/' + 'assets/gxmes/bigredbutton/',
       image: 'assets/gxmes/bigredbutton/bigredbutton.png'
     },  
-]
+  ]
