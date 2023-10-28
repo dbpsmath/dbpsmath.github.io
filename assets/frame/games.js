@@ -7,6 +7,13 @@ var games = [
       image: 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
     },
     {
+      id: 'uv',
+      title: 'Ultraviolet',
+      description: 'Ultraviolet, from Mediaology.\nIf it says Not Found then right click and press refresh frame',
+      url: 'https://fishme.me/uv/uv/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F',
+      image: "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png"
+    },
+    {
       id: 'run2',
       title: 'Run 2',
       description: 'Play Run 2, the Coolmath Games title that requires tremendous concentration and memorization as you run (or skate) through the 3-dimensional courses.',
