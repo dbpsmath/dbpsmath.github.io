@@ -260,4 +260,4 @@ var games = [
     }
   ]
 
-  console.log('Games have loaded!')
+  console.log('Games loaded')
