@@ -1,3 +1,4 @@
+console.log('Games started loading')
 var games = [
     {
       id: 'cookieclicker',
