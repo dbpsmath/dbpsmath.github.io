@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href=""></link>
     <link rel="stylesheet" href="assets/css/style.css" />
     <style>
       input[type="text"],
@@ -16,6 +17,25 @@
         text-align: center;
         padding: 5px 15px;
         margin: 5px auto;
+      }
+      input[type="text"],
+      button.secondary,
+      select {
+        background-color: #111;
+        transition: 0.4s border;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding: 5px 15px;
+        margin: 5px auto;
+      }
+      button.secondary img {
+        height: 25px;
+        width: 25px;
+        margin-top: 5px;
+        border-radius: 5px;
       }
     </style>
     <meta
@@ -80,6 +100,37 @@
       <button onclick="setTab()" class="secondary">Set tab name</button> <br />
       <input type="text" id="tabicon" placeholder="Tab icon" />
       <button onclick="setTab()" class="secondary">Set tab icon</button> <br />
+
+      <button class="secondary" onclick="setTabPreset('amazon')">
+        <img src="https://www.amazon.com/favicon.ico" />
+      </button>
+      <button class="secondary" onclick="setTabPreset('google')">
+        <img
+          src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png"
+        />
+      </button>
+      <button class="secondary" onclick="setTabPreset('drive')">
+        <img
+          src="https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png"
+        />
+      </button>
+      <button class="secondary" onclick="setTabPreset('docs')">
+        <img
+          src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"
+        />
+      </button>
+      <button class="secondary" onclick="setTabPreset('classroom')">
+        <img
+          src="https://ssl.gstatic.com/classroom/ic_product_classroom_32.png"
+        />
+      </button>
+      <button class="secondary"  onclick="remove()">
+        <img onclick="remove()"
+          src="assets/imgs/x-solid.svg"
+        />
+      </button>
+
+      <br /><br />
     </div>
     <script src="assets/js/settings.js"></script>
     <script>

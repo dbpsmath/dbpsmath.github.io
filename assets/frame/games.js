@@ -9,8 +9,8 @@ var games = [
     {
       id: 'uv',
       title: 'Ultraviolet',
-      description: 'Ultraviolet, from Mediaology.\nIf it says Not Found then right click and press refresh frame',
-      url: 'https://fishme.me/uv/uv/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F',
+      description: 'BruhProx.\nIf it says Not Found then right click and press refresh frame',
+      url: 'https://bruhprox.pages.dev/',
       image: "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png"
     },
     {
@@ -256,5 +256,5 @@ var games = [
       description: "Don't press it",
       url:  '/' + 'assets/gxmes/bigredbutton/',
       image: 'assets/gxmes/bigredbutton/bigredbutton.png'
-    },  
+    }
   ]
