@@ -258,3 +258,5 @@ var games = [
       image: 'assets/gxmes/bigredbutton/bigredbutton.png'
     }
   ]
+
+  console.log('Games loaded')
