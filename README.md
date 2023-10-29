@@ -5,9 +5,12 @@ DBP's Math is a unblocked game website for all your needs. It has many games, is
 ## What are your official links?
 We currently have a couple official links, but are working on more.  
 https://dbpsmath.github.io  
-https://cdn.mathtutoringwithlove.info/cdn/dbpsmath/dbpsmath.github.io/main/index.html  
-https://gitloaf.albios.repl.co/cdn/dbpsmath/dbpsmath.github.io/main/index.html
-https://rawcdn.githack.com/dbpsmath/dbpsmath.github.io/398e5602e158aedc16b1742565324e5e4890409c/index.html
+https://dbpsmath-new-git-main-mathymathymath.vercel.app/  
+https://dbpsmath-mqz02k060-mathymathymath.vercel.app/  
+https://dbpsmath-new.vercel.app/  
+https://mathiscool-git-main-mathymathymath.vercel.app/  
+https://mathiscool-git-main-mathymathymath.vercel.app/  
+https://mathiscool-gtmc6xpmd-mathymathymath.vercel.app/  
 ## Can I join the DBP's Math team?
 We are looking for new people. So, contact us on the [discord](https://discord.gg/3wd2CYDvBm) and we'll review it.
 ## How do I deploy?
