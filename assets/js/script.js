@@ -18,3 +18,27 @@ function abcloak() {
     iframe.src = self.location;
     tab.document.body.appendChild(iframe);
 }
+
+// Create the script element
+var scriptElement = document.createElement('script');
+
+// Set the source and async attributes
+scriptElement.src = 'https://www.googletagmanager.com/gtag/js?id=G-5R6BKQ11BM';
+scriptElement.async = true;
+
+// Append the script to the head of the document
+document.head.appendChild(scriptElement);
+
+// Create the inline script
+var inlineScript = document.createElement('script');
+
+// Set the script content
+inlineScript.innerHTML = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5R6BKQ11BM');
+`;
+
+// Append the inline script to the head of the document
+document.head.appendChild(inlineScript);
