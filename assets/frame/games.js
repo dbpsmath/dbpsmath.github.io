@@ -264,6 +264,13 @@ var games = [
       description: "Don't press it",
       url:  '/' + 'assets/gxmes/bigredbutton/',
       image: 'assets/gxmes/bigredbutton/bigredbutton.png'
+    },
+    {
+      id: 'con3',
+      title: 'Connect 3',
+      description: "Oh, make sure to connect 3 this time!",
+      url:  '/' + 'assets/gxmes/connect3/',
+      image: 'assets/gxmes/connect3/connect3.png'
     }
   ]
 
