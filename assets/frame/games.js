@@ -8,6 +8,13 @@ var games = [
       image: 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
     },
     {
+      id: 'flappy2048',
+      title: 'Flappy 2048',
+      description: 'Lets combine the two most addicting games!',
+      url:  '/' + 'assets/gxmes/flappy-2048/',
+      image: '/assets/gxmes/flappy-2048/flappy2048.jpg'
+    },
+    {
       id: 'roadblocks',
       title: 'Roadblocks',
       description: 'Roadblocks is a fun puzzle game. It takes a lot of work!',
