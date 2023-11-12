@@ -84,7 +84,7 @@ var games = [
       image: 'assets/gxmes/snowrider3d/gameicon.png'
     },
     {
-      id: 'ducklife1',
+      id: 'ducklife',
       title: 'Duck Life 1',
       description: 'Duck Life 1 is a funny running game. Your mission is to control a duckling to run, swim and fly to reach the finish line to earn as many coins as possible.',
       url:  '/' + 'assets/gxmes/ducklife1/',
