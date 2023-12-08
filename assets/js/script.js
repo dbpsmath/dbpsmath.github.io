@@ -62,12 +62,3 @@ try {
     console.error("An error occurred while loading Google Tag Manager script:", err.message);
     toggleError('Failed to load GTAG, please reload.');
 }
-
-try {
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js';
-    document.body.appendChild(scriptElement);
-} catch (err) {
-    console.error("An error occurred while loading Snowflakes:", err.message);
-    toggleError('Failed to load Snowflakes, please reload.');
-}
