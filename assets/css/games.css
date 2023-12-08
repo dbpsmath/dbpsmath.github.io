@@ -5,6 +5,10 @@
     background-color: white;
 }
 
+body {
+    overflow: visible;
+}
+
 #gameInfo {
     position: relative;
 }
@@ -47,6 +51,7 @@
     justify-content: center;
     margin: 10% 10px;
 }
+
 #menubtns button {
     border: 3px solid white;
     font-family: "DM Sans";
@@ -63,7 +68,9 @@
     transition: 0.4s all;
     margin: 5px 5px;
 }
-a, a:visited {
+
+a,
+a:visited {
     color: var(--accent);
     text-decoration: none;
     transition: 0.4s all;
@@ -96,102 +103,105 @@ button {
 .gameDescription {
     visibility: hidden;
 }
+
 .seo {
     visibility: hidden;
 }
 
-#games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: .6vw;
-    padding-bottom: 5vw;
-
-}
- 
-#games img {    
-    height: 15.6vw;
-    width: 15.6vw;
-    border-radius: 1vw;
-    margin: .5vw;
-    cursor: pointer;
-    user-select: none;
-    transition: transform .2s;
-}
- 
-#games img:hover {
-    transform: scale(1.01);
-}
-
 /* Style for the image gallery container */
 .image-gallery {
+    position: relative;
+    z-index: 2;
+    /* or any value higher than the z-index of #vanta-bg */
+    overflow: visible;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 /* Style for the image container */
 .image-container {
+    z-index: 100;
     text-align: center;
-    margin: 10px; /* Add some spacing between images */
+    margin: 10px;
+    /* Add some spacing between images */
 }
 
 /* Style for the image with a white border and rounded corners */
 .rounded-image {
+    z-index: 100;
     display: block;
     margin: 0 auto;
     border: 2px solid white;
     border-radius: 10px;
-    max-width: 150px; /* Adjust the image size as needed */
+    max-width: 150px;
+    /* Adjust the image size as needed */
 }
 
 /* Style for the caption */
 .caption {
+    z-index: 100;
     text-align: center;
 }
 
 /* Style for the hyperlink (normal text) */
 .normal-link {
+    z-index: 100;
     text-decoration: none;
-    color: #000; /* Black color for the text */
+    color: #000;
+    /* Black color for the text */
 }
 
 .search {
+    z-index: 100;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
     user-select: none;
     margin-top: 2.5vw;
     margin-left: 1.2vw;
 }
 
 .search input {
+    z-index: 100;
     background-color: #222222;
     border: none;
-    border-radius: 0.5vw 0 0 0.5vw; /* Reduced border-radius */
+    border-radius: 0.5vw 0 0 0.5vw;
+    /* Reduced border-radius */
     color: #fff;
-    font-size: 1vw; /* Reduced font size */
+    font-size: 1vw;
+    /* Reduced font size */
     font-weight: 600;
-    padding: 0.5vw 1vw; /* Reduced padding */
+    padding: 0.5vw 1vw;
+    /* Reduced padding */
     font-family: 'Montserrat', sans-serif;
     z-index: 1;
     outline: none;
 }
 
 .search input::placeholder {
+    z-index: 100;
     color: #fff;
     font-weight: 600;
-    font-size: 1vw; /* Reduced font size */
+    font-size: 1vw;
+    /* Reduced font size */
 }
 
 .search button {
+    z-index: 100;
     background-color: gray;
     border: none;
-    border-radius: 0 0.5vw 0.5vw 0; /* Reduced border-radius */
+    border-radius: 0 0.5vw 0.5vw 0;
+    /* Reduced border-radius */
     color: #222222;
-    font-size: 1vw; /* Reduced font size */
+    font-size: 1vw;
+    /* Reduced font size */
     font-weight: 600;
-    padding: 0.5vw 1vw; /* Reduced padding */
+    padding: 0.5vw 1vw;
+    /* Reduced padding */
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     z-index: 1;
