@@ -62,3 +62,5 @@ try {
     console.error("An error occurred while loading Google Tag Manager script:", err.message);
     toggleError('Failed to load GTAG, please reload.');
 }
+
+twemoji.parse(document.body)
