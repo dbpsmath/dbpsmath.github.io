@@ -10,6 +10,9 @@
   /* Ensure it's behind other content */
 }
 
+nav>h1>img {
+    font-size: 3vw;
+}
 
 * {
   font-family: 'Montserrat', sans-serif;
