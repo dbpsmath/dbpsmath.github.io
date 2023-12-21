@@ -30,4 +30,4 @@ Spread the word! Tell your friends, family, or your dog! It really helps out.
 The only advice I can give you is to not make a google site. Abnumality has a very good [series on how to make one](https://www.youtube.com/watch?v=Etmaj7clLCI&list=PLPCCmOayz-5DeKnxCkh4wbHgXLNNdfOgL), but it is for google sites. But you can do it without Google Sites. For learning HTML, CSS, and JS I'd recommend W3Schools.
 
 # Credit
-A lot of the games are from [binbashbanana's gfiles](https://github.com/BinBashBanana/gfiles/) or [3kh0's assets](https://github.com/3kh0/3kh0-assets).
+A lot of the games are skidded from [binbashbanana's gfiles](https://github.com/BinBashBanana/gfiles/) or [3kh0's assets](https://github.com/3kh0/3kh0-assets).
