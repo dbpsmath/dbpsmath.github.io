@@ -18,8 +18,7 @@ I custom coded this in HTML, CSS, and JS.
 ## Can you add X
 If you want me to add a game then ask me on the discord [here](https://discord.gg/3wd2CYDvBm).
 ## I'm a sysadmin and want to block this, how do I?
-To answer your question, for most sites you can never fully block them. Sure, you can block my links, but anyone can make a link.
-Even if you block every hosting platform somebody can still just buy a domain
+You can simply block everything except the essentials that students need to use.
 ## How can I help?
 If you have good skills in coding, then fork our repository, make your changes, and make a pull request. If it's good then we'll pull it.
 ## How can I help without coding?
