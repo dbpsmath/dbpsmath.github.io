@@ -17,8 +17,6 @@ Import this repository on any provider that supports static sites.
 I custom coded this in HTML, CSS, and JS.
 ## Can you add X
 If you want me to add a game then ask me on the discord [here](https://discord.gg/3wd2CYDvBm).
-## Why don't you add TV or Music
-Those both are illegal, due to piracy. If I could and it wouldn't hurt the creator I would.
 ## I'm a sysadmin and want to block this, how do I?
 To answer your question, for most sites you can never fully block them. Sure, you can block my links, but anyone can make a link.
 Even if you block every hosting platform somebody can still just buy a domain
