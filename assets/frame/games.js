@@ -7,6 +7,13 @@ var games = [
       url:  '/' + 'assets/gxmes/cookie-clicker/',
       image: 'https://cdn.discordapp.com/icons/339131488111034389/73f15cd93d96504af9877a53816d110c.png'
     },
+      {
+      id: 'flappyplane',
+      title: 'Flappy Plane',
+      description: 'Flappy Plane is a game like Flappy Bird, however the main character is a plane.',
+      url:  '/' + 'assets/gxmes/flappyplane/',
+      image: 'https://assets.bgames.com/9/114909/100774/300x300/flappy-plane.jpg'
+    },
     {
       id: 'flappy2048',
       title: 'Flappy 2048',
