@@ -8,7 +8,7 @@ https://dbpsmath.github.io
 https://dbpsmath-new.vercel.app  
 https://dbpsmath-new-git-main-mathymathymath.vercel.app  
 https://mathiscool-beta.vercel.app  
-https://frabjous-bombolone-862c1c.netlify.app/
+https://frabjous-bombolone-862c1c.netlify.app/<br/>
 https://html.cafe/xe19d4c4c
 ## Can I join the DBP's Math team?
 We are looking for new people. So, contact us on the [discord](https://discord.gg/3wd2CYDvBm) and we'll review it.
