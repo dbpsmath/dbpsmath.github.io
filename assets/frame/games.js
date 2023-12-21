@@ -31,8 +31,8 @@ var games = [
     {
       id: 'uv',
       title: 'Ultraviolet',
-      description: 'BruhProx.\nIf it says Not Found then right click and press refresh frame',
-      url: 'https://bruhprox.pages.dev/',
+      description: 'Proxy',
+      url: 'https://pro2.minoa.cat',
       image: "https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png"
     },
     {
