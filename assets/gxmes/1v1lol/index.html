@@ -142,7 +142,7 @@
     <script id="unity-loader" src="UnityLoader.js"></script>
     <!--<script src="Build/UnityLoader.js"></script>-->
     <script>
-      var gameJsonUrl = "https://justbuild.nyc3.cdn.digitaloceanspaces.com/CI/1v1/Prod/162/WebGL.json"; //%gameJsonUrl
+      var gameJsonUrl = "https://" + document.location.host + "/assets/gxmes/1v1lol/WebGL.json"; //%gameJsonUrl
       var hostname = window.location.hostname;
       if (hostname.indexOf("dev1v1") >= 0 || hostname.indexOf("dev.1v1") >= 0 || hostname.indexOf("test1v1") >= 0 || hostname.indexOf("test.1v1") >= 0) {
         let urlParams = new URLSearchParams(window.location.search);
