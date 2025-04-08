@@ -1,2 +1,0 @@
-# OvO
-The Game
