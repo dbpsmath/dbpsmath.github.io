@@ -147,25 +147,11 @@ var games = [
       image: 'assets/gxmes/monkeymart/gameicon.png'
     },
     {
-      id: 'ovo',
-      title: 'OvO',
-      description: 'OvO.io Online is the same as the OvO game you know and love, but now in multiplayer! This is a fast-paced skill-based platforming game focused on maneuvering around the levels as fast as possible. Complete every level available in easy and hard mode.',
-      url:  '/' + 'assets/gxmes/ovo/',
-      image: 'assets/gxmes/ovo/gameicon.png'
-    },
-    {
       id: 'duckspace',
       title: 'Duck Life Space',
       description: 'Duck Life: Space is a duck racing game with a galactic story and theme. An alien from outer space has nabbed your trophy, and you need to go on a quest through space to get it back! Enjoy a plethora of new mini-games and races along the way.',
       url:  '/' + 'assets/gxmes/ducklifespace/duck5/',
       image: 'assets/gxmes/ducklifespace/gameicon.png'
-    },
-    {
-      id: 'ovo2',
-      title: 'OvO 2',
-      description: 'OvO 2 is an exciting and immersive video game that takes players on a thrilling journey through a captivating virtual world. This sequel to the original OvO',
-      url:  '/' + 'assets/gxmes/ovo2/',
-      image: 'assets/gxmes/ovo2/gameicon.png'
     },
     {
       id: 'cookie',
